@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  background-color: black;
+  color: white;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.main{
+  height: 100vh;
+}
+
+.mask, .body{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #afa18f;
+  font-size: 64px;
+  line-height: 66px;
+  cursor: default;
+  
+}
+
+.body{
+  font-weight: bold;
+}
+
+p{
+  width: 1000px;
+  padding:40px;
+}
+span{
+  color: #ec4e39;
+}
+
+.mask{
+  mask-image: url('../public/mask.svg');
+  mask-repeat: no-repeat;
+  position: absolute;
+  background: #ec4e39;
+  color: black;
+  mask-size: 40px;
+  text-align: center;
+  /* font-size: large; */
+  /* mask-position: 200px; */
+  font-weight: bolder;
+
+}
