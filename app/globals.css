@@ -56,3 +56,22 @@ span{
   font-weight: bolder;
 
 }
+
+.herotext{
+  /* animation-delay: 1s; */
+  animation: fadein 1.2s ease-in forwards;
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  /* font-size: 2rem; */
+
+}
+
+li{
+  list-style: none;
+  
+}
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+  }
