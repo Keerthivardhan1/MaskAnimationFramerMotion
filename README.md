@@ -1,3 +1,11 @@
+
+
+
+https://github.com/Keerthivardhan1/MaskAnimationFramerMotion/assets/110013820/d46ee79e-745c-4c54-9ca4-154d88b3f9a9
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
