@@ -6,6 +6,8 @@
 body {
   background-color: black;
   color: white;
+  --purple: #9900ff;
+  --accent: var(--purple);
 }
 
 @layer utilities {
@@ -36,7 +38,7 @@ body {
 }
 
 p{
-  width: 1000px;
+  /* width: 1000px; */
   padding:40px;
 }
 span{
@@ -75,3 +77,62 @@ li{
   from { opacity: 0; }
   to   { opacity: 1; }
   }
+
+
+.para{
+  font-size: 2.5rem;
+  font-weight: bolder;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+  line-height: 1em;
+}
+
+.word{
+  margin-right: 16px;
+  /* color: slateblue; */
+  color: white;
+  /* transition: all 0.4s; */
+  /* opacity: 0.3; */
+  position: relative;
+}
+
+.wordShadow{
+  position: absolute;
+  color: white;
+  opacity: 0.3;
+}
+
+
+/* imtroduction  */
+
+.box{
+  width: 20vw;
+  height: 30vh;
+  /* border: 2px solid black; */
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  -moz-backdrop-filter: blur(4px);
+}
+
+
+.privacy-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--accent);
+  z-index: 2;
+}
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: var(--purple);
+  transform-origin: 0%;
+}
